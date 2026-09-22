@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.db
+mcp_server/mcp_server.log
+.vscode/
+.DS_Store
+
+diagrams/

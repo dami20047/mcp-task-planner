@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "task-planner": {
+      "command": "/ABSOLUTE/PATH/TO/mcp-task-planner/.venv/Scripts/python.exe",
+      "args": [
+        "/ABSOLUTE/PATH/TO/mcp-task-planner/mcp_server/server.py"
+      ],
+      "env": {
+        "TASK_SERVICE_API_KEY": "paste-the-same-key-that-is-in-your-.env-here",
+        "TASK_SERVICE_URL": "http://127.0.0.1:8000"
+      }
+    }
+  }
+}
